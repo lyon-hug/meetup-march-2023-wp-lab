@@ -10,3 +10,9 @@ waypoint context create \
   
   
   waypoint context list
+  
+  
+  waypoint runner install \
+  -platform=kubernetes \
+  -server-addr=api.hashicorp.cloud:443 \
+  -k8s-runner-image=hashicorp/waypoint:latest
